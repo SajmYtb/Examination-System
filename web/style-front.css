@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin:0;
+	padding:0;
+}
+.container
+{
+	height:auto;
+	width:auto;
+	border:1px solid black;
+	background-color:#333;
+}
+#logo
+{
+	height:100px;
+	width:100px;
+	border:1px solid black;
+}
+#nav
+{
+	height:50px;
+	margin:10px;
+	width:98%;
+	border-radius:10px;
+	border:1px outset;
+	box-shadow:#CCC 0 0 15px;
+	background-color:#CCC;
+}
+#nav ul
+{
+	list-style:none;
+}
+#nav ul li
+{
+	float:left;
+}
+#nav ul li a
+{
+	text-decoration:none;
+	margin-left:100px;
+	font-family:"Gill Sans MT";
+	font-size:20px;
+	line-height:50px;
+	color:#333
+}
+#nav a:hover
+{
+	color:#fff;
+}
+#main{
+	background:#030;
+	width:98%;
+	height:500px;
+	margin:10px;
+}
+#para h1{
+	background:#999;
+	color:#000;
+}
+#para p{
+	color:#999;
+	font-size:27px;
+}
+#bodypart{
+	border:0px solid;
+	margin-top:10px;
+}
+#bodyleft{
+	border:0px solid;
+	float:left;
+	width:250px;
+}
+#bodyleft ul{
+	list-style:none;
+}
+#bodyleft h2{
+	background:#666;
+	color:#CCC;
+	padding:4px;
+}
+#bodyleft ul li{
+	list-style:none;
+	border:0px solid;
+	padding-left:1px;
+	height:20px;
+	line-height:50px;
+}
+#bodyleft ul li a{
+	color:#333;
+	font-size:17px;
+	text-decoration:none;
+	padding:0px;
+}
+#bodyright{
+	border:1px;
+	width:700px;
+	float:right;
+	margin:15px;
+}
+#bodyright h2,#contact h2{
+	background-color:#666;
+	color:#ccc;
+	padding:5px;
+}
+#bodyright p, #contact p{
+	color:#333;
+	padding:8px;
+	border:px solid;
+	font-size:18px;
+	line-height:25px;
+	text-align:justify;
+}
+
+
+	
+
